@@ -1,58 +1,64 @@
-<h1>Speedtest CLI</h1>
+# Speedtest CLI
 
-<p>Este projeto utiliza o Speedtest CLI para executar testes de velocidade da internet via linha de comando.</p>
+Este é um repositório contendo um script Python para executar o Speedtest CLI e registrar os resultados.
 
-<h2>Instalação</h2>
+## Pré-requisitos
 
-<p>Você precisa ter o Speedtest CLI instalado no seu sistema para executar este projeto. Siga as instruções abaixo para instalar o Speedtest CLI de acordo com o seu sistema operacional:</p>
+Certifique-se de ter o seguinte software instalado antes de prosseguir:
 
-<h3>Linux</h3>
+- Python 3.x
+- Speedtest CLI
 
-<p>Para instalar o Speedtest CLI no Linux, execute o seguinte comando no terminal:</p>
+## Instalação
 
-<pre>
-wget https://install.speedtest.net/app/cli/ookla-speedtest-1.0.0-x86_64-linux.tgz
-tar -xvf ookla-speedtest-1.0.0-x86_64-linux.tgz
-cd ookla-speedtest-1.0.0-x86_64-linux
-sudo mv speedtest /usr/local/bin/
-</pre>
+Siga as etapas abaixo para instalar o Speedtest CLI e configurar o ambiente:
 
-<h3>macOS</h3>
+1. Clone este repositório para o seu diretório local:
 
-<p>Para instalar o Speedtest CLI no macOS, execute o seguinte comando no terminal:</p>
+  ```bash
+   git clone https://github.com/seu-usuario/speedtest-cli.git
+  ```
 
-<pre>
-brew tap teamookla/speedtest
-brew update
-brew install speedtest
-</pre>
+2. Navegue até o diretório do repositório:
 
-<h3>Windows</h3>
+  ``bash
+    cd speedtest-cli
+  ```
 
-<p>Para instalar o Speedtest CLI no Windows, faça o download do arquivo de instalação no seguinte link:</p>
+3. Instale as dependências Python:
 
-<p><a href="https://install.speedtest.net/app/cli/ookla-speedtest-1.0.0-win64.zip">Speedtest CLI - Windows</a></p>
+  ```bash
+    pip install -r requirements.txt
+  ```
 
-<p>Extraia o conteúdo do arquivo ZIP e adicione a pasta <code>ookla-speedtest-1.0.0-win64</code> ao seu PATH de sistema.</p>
+4. Baixe e instale o Speedtest CLI:
 
-<h2>Uso</h2>
+  - Para Linux/Mac:
 
-<ol>
-  <li>Clone o repositório para o seu sistema local.</li>
-  <li>Certifique-se de que o Speedtest CLI esteja instalado corretamente (consulte a seção de instalação).</li>
-  <li>Execute o script <code>speedtest_app.py</code> no seu ambiente Python:</li>
-</ol>
+  ```bash
+    wget https://bintray.com/ookla/download/download_file?file_path=ookla-speedtest-1.0.0-x86_64-linux.tgz -O speedtest-cli.tgz
+    tar -xzf speedtest-cli.tgz
+    cd speedtest-cli
+    chmod +x speedtest
+    sudo mv speedtest /usr/local/bin/
+  ```
+  - Para Windows:
 
-<pre>
-python3 speedtest_app.py
-</pre>
+    - Faça o download do arquivo executável speedtest.exe em https://www.speedtest.net/apps/cli
+    - Mova o arquivo speedtest.exe para o diretório do repositório clonado.
+## Uso
 
-<p>Isso executará o Speedtest CLI e registrará os resultados em um arquivo de log na pasta <code>Logs</code>.</p>
+  Para executar o Speedtest CLI e registrar os resultados, execute o seguinte comando:
 
-<h2>Contribuição</h2>
+    ```bash
+        python3 speedtest_app.py
+    ```
+    
+  Os resultados do Speedtest serão exibidos no terminal e também serão registrados em um arquivo de log.
 
-<p>Contribuições são bem-vindas! Se você encontrar algum problema ou tiver alguma melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.</p>
+## Contribuição
 
-<h2>Licença</h2>
+  Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novos recursos.
 
-<p>Este projeto está licenciado sob a licença MIT. Consulte o arquivo <a href="LICENSE">LICENSE</a> para obter mais informações.</p>
+## Licença
+  Este projeto está licenciado sob a MIT License.
