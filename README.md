@@ -131,4 +131,4 @@ Siga as etapas abaixo para instalar o Speedtest CLI e configurar o ambiente:
   Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novos recursos.
 
 ## Licença
-  Este projeto está licenciado sob a MIT License.
+  Este projeto está licenciado sob a [MIT License](https://github.com/ScParis/SpeedTest_Py/blob/main/LICENSE).
