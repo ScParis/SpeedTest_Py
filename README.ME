@@ -1,0 +1,58 @@
+<h1>Speedtest CLI</h1>
+
+<p>Este projeto utiliza o Speedtest CLI para executar testes de velocidade da internet via linha de comando.</p>
+
+<h2>Instalação</h2>
+
+<p>Você precisa ter o Speedtest CLI instalado no seu sistema para executar este projeto. Siga as instruções abaixo para instalar o Speedtest CLI de acordo com o seu sistema operacional:</p>
+
+<h3>Linux</h3>
+
+<p>Para instalar o Speedtest CLI no Linux, execute o seguinte comando no terminal:</p>
+
+<pre>
+wget https://install.speedtest.net/app/cli/ookla-speedtest-1.0.0-x86_64-linux.tgz
+tar -xvf ookla-speedtest-1.0.0-x86_64-linux.tgz
+cd ookla-speedtest-1.0.0-x86_64-linux
+sudo mv speedtest /usr/local/bin/
+</pre>
+
+<h3>macOS</h3>
+
+<p>Para instalar o Speedtest CLI no macOS, execute o seguinte comando no terminal:</p>
+
+<pre>
+brew tap teamookla/speedtest
+brew update
+brew install speedtest
+</pre>
+
+<h3>Windows</h3>
+
+<p>Para instalar o Speedtest CLI no Windows, faça o download do arquivo de instalação no seguinte link:</p>
+
+<p><a href="https://install.speedtest.net/app/cli/ookla-speedtest-1.0.0-win64.zip">Speedtest CLI - Windows</a></p>
+
+<p>Extraia o conteúdo do arquivo ZIP e adicione a pasta <code>ookla-speedtest-1.0.0-win64</code> ao seu PATH de sistema.</p>
+
+<h2>Uso</h2>
+
+<ol>
+  <li>Clone o repositório para o seu sistema local.</li>
+  <li>Certifique-se de que o Speedtest CLI esteja instalado corretamente (consulte a seção de instalação).</li>
+  <li>Execute o script <code>speedtest_app.py</code> no seu ambiente Python:</li>
+</ol>
+
+<pre>
+python3 speedtest_app.py
+</pre>
+
+<p>Isso executará o Speedtest CLI e registrará os resultados em um arquivo de log na pasta <code>Logs</code>.</p>
+
+<h2>Contribuição</h2>
+
+<p>Contribuições são bem-vindas! Se você encontrar algum problema ou tiver alguma melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.</p>
+
+<h2>Licença</h2>
+
+<p>Este projeto está licenciado sob a licença MIT. Consulte o arquivo <a href="LICENSE">LICENSE</a> para obter mais informações.</p>
