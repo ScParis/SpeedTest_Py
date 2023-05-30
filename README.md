@@ -21,7 +21,7 @@ Siga as etapas abaixo para instalar o Speedtest CLI e configurar o ambiente:
 
 2. Navegue até o diretório do repositório:
 
-  ``bash
+  ```bash
     cd speedtest-cli
   ```
 
