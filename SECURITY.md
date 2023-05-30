@@ -1,4 +1,3 @@
-
 # Política de Segurança
 
 ## Relatando problemas de segurança
@@ -9,19 +8,21 @@ Agradecemos por ajudar a manter a segurança do projeto. Se você descobrir algu
 
 ### Etapas para relatar um problema de segurança
 
-1. Envie um e-mail para a equipe de segurança do projeto em `security@speedtest-py.com` para relatar o problema.
+1. Crie uma nova issue no projeto para relatar o problema de segurança. Para criar a issue, siga estes passos:
 
-2. Forneça informações detalhadas sobre o problema, incluindo:
+   - Acesse a página de issues do projeto: [Link para as Issues](https://github.com/ScParis/SpeedTest_Py/issues).
+   - Clique no botão "New issue".
+   - Forneça um título descritivo para a issue que identifique o problema de segurança.
+   - No corpo da issue, forneça informações detalhadas sobre o problema, incluindo:
+     - Uma descrição clara e concisa do problema de segurança.
+     - Passos para reproduzir o problema, se possível.
+     - Quaisquer informações adicionais relevantes que possam ajudar na avaliação e correção do problema.
 
-   - Uma descrição clara e concisa do problema de segurança.
-   - Passos para reproduzir o problema, se possível.
-   - Quaisquer informações adicionais relevantes que possam ajudar na avaliação e correção do problema.
+2. Aguarde a resposta da equipe de segurança do projeto na issue criada.
 
-3. Aguarde a confirmação de recebimento do e-mail.
+3. A equipe de segurança do projeto irá avaliar o problema e fornecerá as próximas etapas para solução.
 
-4. A equipe de segurança do projeto irá avaliar o problema e responder ao relatório o mais breve possível.
-
-5. Agradecemos sua paciência e cooperação durante o processo de resolução do problema.
+4. Agradecemos sua paciência e cooperação durante o processo de resolução do problema.
 
 ## Reconhecimentos
 
@@ -33,5 +34,4 @@ Agradecemos a sua contribuição para a segurança do projeto!
 
 ## Contatos
 
-- E-mail: security@speedtest-py.com
-- Website: https://www.speedtest-py.com
+- Issues: [Link para as Issues](https://github.com/ScParis/SpeedTest_Py/issues)
