@@ -36,7 +36,7 @@ Siga as etapas abaixo para instalar o Speedtest CLI e configurar o ambiente:
   - Para Mac:
 
   ```bash
-    Download: [Link](https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-macosx-universal.tgz)
+    Download: https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-macosx-universal.tgz
   ```
 
 
@@ -56,11 +56,11 @@ Siga as etapas abaixo para instalar o Speedtest CLI e configurar o ambiente:
     Download para Linux   
 
   ```bash
-    [i386](https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-i386.tgz)
-    [x86_64](https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x86_64.tgz)
-    [armel](https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-armel.tgz)
-    [armhf](https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-armhf.tgz)
-    [aarch64](https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-aarch64.tgz)
+    i386 - https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-i386.tgz
+    x86_64 - https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-x86_64.tgz
+    armel - https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-armel.tgz
+    armhf - https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-armhf.tgz
+    aarch64 - https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-aarch64.tgz
   ```
 
   ```bash
@@ -100,7 +100,7 @@ Siga as etapas abaixo para instalar o Speedtest CLI e configurar o ambiente:
   Download para FreeBSD
 
   ```bash
-    Disponível apenas para [x86_64](https://www.speedtest.net/pt/apps/cli#freebsd-flyout)
+    Disponível apenas para x86_64 - https://www.speedtest.net/pt/apps/cli#freebsd-flyout
   ```
 
   ```bash
