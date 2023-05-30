@@ -118,6 +118,9 @@ Siga as etapas abaixo para instalar o Speedtest CLI e configurar o ambiente:
     
 ## Uso
 
+>**Certifique-se de ter o Speedtest CLI instalado corretamente e que o arquivo speedtest_app.py esteja no mesmo diretório do executável do Speedtest CLI. Em seguida, execute o script Python usando o comando:**{.is-info}
+
+  
   Para executar o Speedtest CLI e registrar os resultados, execute o seguinte comando:
 
   ```bash
