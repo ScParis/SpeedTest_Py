@@ -1,21 +1,37 @@
-# Security Policy
 
-## Supported Versions
+# Política de Segurança
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+## Relatando problemas de segurança
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+Agradecemos por ajudar a manter a segurança do projeto. Se você descobrir algum problema de segurança, pedimos que siga estas diretrizes para relatar o problema de forma responsável.
 
-## Reporting a Vulnerability
+**Não divulgue publicamente o problema até que ele tenha sido resolvido.**
 
-Use this section to tell people how to report a vulnerability.
+### Etapas para relatar um problema de segurança
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+1. Envie um e-mail para a equipe de segurança do projeto em `security@speedtest-py.com` para relatar o problema.
+
+2. Forneça informações detalhadas sobre o problema, incluindo:
+
+   - Uma descrição clara e concisa do problema de segurança.
+   - Passos para reproduzir o problema, se possível.
+   - Quaisquer informações adicionais relevantes que possam ajudar na avaliação e correção do problema.
+
+3. Aguarde a confirmação de recebimento do e-mail.
+
+4. A equipe de segurança do projeto irá avaliar o problema e responder ao relatório o mais breve possível.
+
+5. Agradecemos sua paciência e cooperação durante o processo de resolução do problema.
+
+## Reconhecimentos
+
+Agradecemos aos seguintes pesquisadores por relatarem problemas de segurança e ajudarem a melhorar a segurança do projeto:
+
+- Nome do pesquisador
+
+Agradecemos a sua contribuição para a segurança do projeto!
+
+## Contatos
+
+- E-mail: security@speedtest-py.com
+- Website: https://www.speedtest-py.com
