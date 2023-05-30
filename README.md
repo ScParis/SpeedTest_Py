@@ -50,9 +50,9 @@ Siga as etapas abaixo para instalar o Speedtest CLI e configurar o ambiente:
 
   Para executar o Speedtest CLI e registrar os resultados, execute o seguinte comando:
 
-    ```bash
-        python3 speedtest_app.py
-    ```
+  ```bash
+      python3 speedtest_app.py
+  ```
     
   Os resultados do Speedtest serão exibidos no terminal e também serão registrados em um arquivo de log.
 
