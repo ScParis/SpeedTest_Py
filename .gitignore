@@ -1,0 +1,14 @@
+# Arquivos de log
+*.log
+
+# Arquivos compilados
+*.exe
+*.o
+ookla-speedtest-1.2.0-linux-x86_64.tgz
+speedtest
+speedtest.5
+speedtest.md
+speedtest_app_old2.py
+
+# Pastas
+Logs/
